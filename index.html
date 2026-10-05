@@ -1,11 +1,61 @@
+```html
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="google-site-verification" content="PPIRx4XgYNjZTX0nAXMIqzSa0xq_M20Qq5hG5BMvdXo" />
-  <meta name="description" content="THES 社團法人台灣高等教育學會官方入口網站，提供台灣高等教育相關資訊與學會網站入口。" />
-  <title>THES 社團法人台灣高等教育學會</title>
+
+  <meta
+    name="google-site-verification"
+    content="PPIRx4XgYNjZTX0nAXMIqzSa0xq_M20Qq5hG5BMvdXo"
+  />
+
+  <title>社團法人台灣高等教育學會｜THES Taiwan Higher Education Society</title>
+
+  <meta
+    name="description"
+    content="社團法人台灣高等教育學會（Taiwan Higher Education Society, THES）官方入口網站，推動台灣高等教育研究、學術交流、研討會及高等教育相關活動。"
+  />
+
+  <meta
+    name="keywords"
+    content="台灣高等教育學會,社團法人台灣高等教育學會,THES,Taiwan Higher Education Society,高等教育,台灣高等教育"
+  />
+
+  <meta name="robots" content="index, follow" />
+
+  <link
+    rel="canonical"
+    href="https://yihsuan1106.github.io/THES/"
+  />
+
+  <meta
+    property="og:title"
+    content="社團法人台灣高等教育學會｜THES"
+  />
+
+  <meta
+    property="og:description"
+    content="社團法人台灣高等教育學會官方入口網站，提供台灣高等教育研究、學術交流及相關活動資訊。"
+  />
+
+  <meta
+    property="og:url"
+    content="https://yihsuan1106.github.io/THES/"
+  />
+
+  <meta property="og:type" content="website" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "社團法人台灣高等教育學會",
+    "alternateName": "THES",
+    "url": "https://yihsuan1106.github.io/THES/",
+    "description": "社團法人台灣高等教育學會致力於推動台灣高等教育研究、學術交流、研討會及相關活動。"
+  }
+  </script>
 
   <style>
     html, body {
@@ -19,7 +69,7 @@
     .homepage {
       position: relative;
       width: 100%;
-      height: 100%;
+      min-height: 100%;
       overflow: hidden;
     }
 
@@ -35,14 +85,14 @@
     .overlay {
       position: absolute;
       inset: 0;
-      background: rgba(0, 0, 0, 0.35);
+      background: rgba(0, 0, 0, 0.42);
     }
 
     .content {
       position: relative;
       z-index: 2;
       width: 100%;
-      height: 100%;
+      min-height: 100vh;
 
       display: flex;
       flex-direction: column;
@@ -62,9 +112,17 @@
       text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
     }
 
+    .intro {
+      max-width: 820px;
+      margin: 0 0 16px 0;
+      font-size: 20px;
+      line-height: 1.8;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+    }
+
     .message {
       margin: 0 0 28px 0;
-      font-size: 24px;
+      font-size: 18px;
       text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
     }
 
@@ -90,8 +148,12 @@
         font-size: 34px;
       }
 
+      .intro {
+        font-size: 18px;
+      }
+
       .message {
-        font-size: 20px;
+        font-size: 16px;
       }
 
       .enter-button {
@@ -109,25 +171,40 @@
     <img
       class="background"
       src="IMG_3273.JPG"
-      alt="THES 社團法人台灣高等教育學會背景圖片"
+      alt="社團法人台灣高等教育學會THES"
     />
 
     <div class="overlay"></div>
 
-    <div class="content">
-      <h1 class="title">THES 社團法人台灣高等教育學會</h1>
+    <main class="content">
 
-      <p class="message">請使用google chrome瀏覽器</p>
+      <h1 class="title">
+        社團法人台灣高等教育學會
+      </h1>
+
+      <p class="intro">
+        社團法人台灣高等教育學會
+        （Taiwan Higher Education Society, THES）
+        致力於推動台灣高等教育研究、學術交流、研討會及相關學術活動，
+        促進高等教育領域之研究發展與專業交流。
+      </p>
+
+      <p class="message">
+        建議使用Google Chrome瀏覽器
+      </p>
 
       <a
         class="enter-button"
         href="https://sites.google.com/view/thes20051202?usp=sharing"
+        aria-label="進入社團法人台灣高等教育學會官方網站"
       >
-        點此進入
+        進入台灣高等教育學會網站
       </a>
-    </div>
+
+    </main>
 
   </div>
 
 </body>
 </html>
+```
